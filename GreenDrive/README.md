@@ -28,8 +28,7 @@ public class PreferencesData, preference
 
 private class Mytask extends TimerTask, Force_quit
 
-
-() onCreate mWakeLock timer "DATE", mydate appstarttime, HttpUploadThread http_type=3 check meta data, fragmentManager, turnOnBluetooth, checkSelfPermission initWriter  initSensors initOBD initGPS, HttpUploadThread HTTP_TYPE_Get disclaimer 
+() onCreate mWakeLock timer "DATE", mydate appstarttime, HttpUploadThread http_type=3 check meta data, fragmentManager, turnOnBluetooth, checkSelfPermission initWriter  initSensors initOBD initGPS, HttpUploadThread HTTP_TYPE_Get disclaimer load info.
 
 private class btOnClickListener onClick() swap frag
 
@@ -64,14 +63,38 @@ private class MyWebChromeClient extends WebChromeClient, onGeolocationPermission
 public interface FragToActivity map2activityStr()
 
 
+
 ## SettingFragment
 
 frag2activity bt1user, bt2email, bt3addr, btspin, btcarExtra tv1,tv2,tv3 etuser, etemail, etaddr, etcar; MainActivity.PreferencesData myPreference;
 
 public static String username, email, address, carmake,carmodel,caryear,carclass, carExtra;
 
-spin setOnItemSelectedListener 
+spin setOnItemSelectedListener onItemSelected() myPreference.saveString 
+
+() onClick, myPreference.saveString toast, save username, email, address... 
+
+() getSpinIndex setTextview appendTextview
 
 
 
+## InfoFragment
+
+tvlist[POStv1]= tv1;  tvlist[POStv0]= tv0;  tvlist[POStv2]= tv2;
+
+timer info_loaded 
+
+() showUsageDisclaimer setTextview appendTextview 
+
+
+
+## WebFragment
+
+mWebView frag2activity singleton 
+
+() onBackPressed reloadUrl 
+
+public interface FragToActivity web2activityStr()
+
+MyWebViewClient shouldOverrideUrlLoading() MyWebChromeClient 
 
