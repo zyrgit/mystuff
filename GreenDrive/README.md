@@ -43,3 +43,35 @@ overwrite frag's interface map2activityStr() setting2activityStr()
 
 extractLatLngFromStr() util
 
+
+
+# Fragments
+
+## MapFragment
+
+public class WebAppInterface web2frag2write() singleton.mapRequestWrite(msg);
+
+mWebView public WebAppInterface web2android; frag2activity
+
+() onViewCreated mWebView.loadUrl reloadMapUrl onBackPressedInMap
+
+() callJavascript 
+
+private class MyWebViewClient extends WebViewClient, shouldOverrideUrlLoading()
+
+private class MyWebChromeClient extends WebChromeClient, onGeolocationPermissionsShowPrompt
+
+public interface FragToActivity map2activityStr()
+
+
+## SettingFragment
+
+frag2activity bt1user, bt2email, bt3addr, btspin, btcarExtra tv1,tv2,tv3 etuser, etemail, etaddr, etcar; MainActivity.PreferencesData myPreference;
+
+public static String username, email, address, carmake,carmodel,caryear,carclass, carExtra;
+
+spin setOnItemSelectedListener 
+
+
+
+
