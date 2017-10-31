@@ -1,4 +1,4 @@
 # Some stuff
 My page:
 
-greengps.cs.illinois.edu/zhao97
+http://greengps.cs.illinois.edu/zhao97
