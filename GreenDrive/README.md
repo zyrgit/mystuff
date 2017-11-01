@@ -98,3 +98,27 @@ public interface FragToActivity web2activityStr()
 
 MyWebViewClient shouldOverrideUrlLoading() MyWebChromeClient 
 
+
+
+## HttpUploadThread
+
+this.file_name = strings[0];
+this.user_id = strings[1];
+this.http_type = strings[2];
+
+() run_upload run_get doInBackground SharedPreferences delete onPostExecute usage disclaimer block downtime 
+
+
+
+## FileUploadService
+
+timer userid Upload_Service_Timeout Filewalker
+
+() precheck file.lastModified() Upload_File_Time_Gap File_Size_Min sharedPrefs Wait_For_Upload
+
+() walk Delete_None_Gz_File Wait_For_Upload HttpUploadThread
+
+() stopAndClear Mysertask
+
+
+
