@@ -15,6 +15,8 @@ Sampler, GzipFileWriter,
 
 () preference set/get 
 
+() closeWriter write userinfo 
+
 GPSlocationStr GPS_status trace_marker_initialized 
 
 mainActivity.preference  android_id, bt_addr, obd_vid
@@ -100,25 +102,25 @@ MyWebViewClient shouldOverrideUrlLoading() MyWebChromeClient
 
 
 
-## HttpUploadThread
+# HttpUploadThread
 
 this.file_name = strings[0];
 this.user_id = strings[1];
 this.http_type = strings[2];
 
-() run_upload run_get doInBackground SharedPreferences delete onPostExecute usage disclaimer block downtime 
+() run_upload run_get doInBackground SharedPreferences delete onPostExecute usage disclaimer block downtime Delete_File_After_Uploaded 
 
 
 
-## FileUploadService
+# FileUploadService
 
 timer userid Upload_Service_Timeout Filewalker
 
 () precheck file.lastModified() Upload_File_Time_Gap File_Size_Min sharedPrefs Wait_For_Upload
 
-() walk Delete_None_Gz_File Wait_For_Upload HttpUploadThread
+() walk Delete_None_Gz_File Wait_For_Upload HttpUploadThread Being_Uploaded
 
-() stopAndClear Mysertask
+() stopAndClear Mysertask PeriodicTask 
 
 
 
