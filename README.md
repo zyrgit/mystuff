@@ -1,4 +1,1 @@
-# Some stuff
-My page:
-
-http://greengps.cs.illinois.edu/zhao97
+# Some stuff of my own

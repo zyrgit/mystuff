@@ -1,4 +1,4 @@
-# edu.illinois.greendrive
+# Android app: edu.illinois.greendrive
 
 
 # FusionSuiteSingleton
